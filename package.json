@@ -1,0 +1,44 @@
+{
+  "name": "track-my-bets",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mmckenna34/track-my-bets",
+  "author": "Max McKenna <mckennamax34@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack -w --mode=development",
+    "build": "webpack --mode=production",
+    "server": "node server/index.js",
+    "dev": "webpack serve --open"
+  },
+  "dependencies": {
+    "@types/node": "^18.6.5",
+    "axios": "^0.27.2",
+    "chart.js": "^3.9.1",
+    "chartjs-plugin-datalabels": "^2.1.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "pg-promise": "^10.11.1",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^4.3.1",
+    "react-dom": "^18.2.0",
+    "recoil": "^0.7.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3"
+  }
+}
